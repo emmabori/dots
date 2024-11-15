@@ -1,0 +1,8 @@
+
+[window]
+opacity = 0.8
+blur = true
+decorations = "none"
+
+[general]
+import = ["/home/emmabori/.config/alacritty/colors.toml"]

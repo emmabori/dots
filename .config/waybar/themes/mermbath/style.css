@@ -1,0 +1,80 @@
+@import "colors.css";
+
+* {
+  font-family: Cousine Nerd Font Mono;
+  font-size: 18px;
+  font-weight: 800;
+  min-height: 0px;
+}
+
+#waybar {
+  background: @background;
+  color: @text;
+}
+
+#custom-pacman, #workspaces, #clock, #pulseaudio, #custom-music, #custom-power {
+  border-style: none;
+  border-width: 2px;
+  border-color: @border;
+  padding-left: 10px;
+  padding-right: 8px;
+}
+
+#custom-pacman {
+  margin-left: 20px;
+  margin-right: 14px;
+  background-color: @background;
+  color: @text;
+  border-radius: 1rem;
+}
+
+#workspaces {
+  border-radius: 1rem;
+  background-color: @background;
+}
+
+#workspaces button {
+  color: @text;
+  border-radius: 1rem;
+  padding: 0.4rem;
+}
+
+#workspaces button.active {
+  color: @text;
+  border-radius: 1rem;
+}
+
+#workspaces button:hover {
+  color: @text;
+  border-radius: 1rem;
+}
+
+#clock {
+  background-color: @background;
+  color: @text;
+  border-radius: 1rem;
+  margin-right: 30px;
+}
+
+
+#pulseaudio {
+  font-size: 20px;
+  background-color: @background;
+  color: @text;
+  border-radius: 1rem;
+  margin-right: 15px;
+}
+
+#custom-music {
+  background-color: @background;
+  color: @text;
+  border-radius: 1rem;
+}
+
+#custom-power {
+  font-size: 34px;
+   background-color: @background;
+    border-radius: 1rem;
+    margin-left: 20px;
+    color: @text;
+}

@@ -1,0 +1,89 @@
+@import "colors.css";
+
+* {
+  font-family: Palatino Linotype;
+  font-size: 18px;
+  font-weight: 600;
+  min-height: 0px;
+}
+
+#waybar {
+  background: rgba(255, 180, 170, 1);
+  color: @text;
+}
+
+#custom-pacman {
+  margin-left: 20px;
+  margin-right: 16px;
+  background-color: @background;
+  color: @text;
+}
+
+#workspaces {
+  margin-left: 20px;
+  border-radius: 1rem;
+  background-color: @background;
+}
+
+#workspaces button {
+  color: @text;
+  border-radius: 1rem;
+  padding: 0.4rem;
+}
+
+#workspaces button.active {
+  color: @text;
+  border-radius: 1rem;
+}
+
+#workspaces button:hover {
+  color: @text;
+  border-radius: 1rem;
+}
+
+#custom-music,
+#tray,
+#backlight,
+#clock,
+#battery,
+#pulseaudio,
+#custom-lock,
+#custom-power {
+  background-color: rgba(255, 180, 170, 1);
+  padding: 0.5rem 1rem;
+  margin: 5px 0;
+}
+
+#clock {
+  color: @text;
+  border-radius: 0px 1rem 1rem 0px;
+  margin-right: 30px;
+}
+
+
+#pulseaudio {
+  color: @text;
+  border-radius: 1rem 0px 0px 1rem;
+}
+
+#custom-music {
+  color: @text;
+  border-radius: 1rem;
+}
+
+#custom-lock {
+    border-radius: 1rem 0px 0px 1rem;
+    margin-left: 50px;
+    color: @text;
+}
+
+#custom-power {
+    border-radius: 0px 1rem 1rem 0px;
+    margin-left: 20px;
+    color: @text;
+}
+
+#tray {
+  margin-right: 1rem;
+  border-radius: 1rem;
+}

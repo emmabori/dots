@@ -1,0 +1,1 @@
+$(zenity --file-selection --title="Select Theme" --filename="/home/emmabori/.config/hypr/Themes/")
