@@ -1,75 +1,80 @@
 @import "colors.css";
 
 * {
-  font-family: Palatino Linotype;
+  font-family: Cousine Nerd Font Mono;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 800;
   min-height: 0px;
 }
 
 #waybar {
-  background: @text;
+  background: rgba(149, 0, 194, 0);
   color: @text;
-  border-style: solid;
-  border-width: 2.5px;
-  border-color: @border;
 }
 
-#left, #right, #custom-music{
+#custom-pacman, #workspaces, #clock, #pulseaudio, #custom-music, #custom-power {
   border-style: none;
-  border-width: 2.5px;
+  border-width: 2px;
   border-color: @border;
-  padding-left: 13px;
-  padding-right: 18px;
-  background: transparent;
-  margin-top: 1px;
-  margin-bottom: 0px;
-  color: @background;
-}
-
-#left {
-  border-left-style: none;
-  margin-left: 10px;
-  margin-right: 20px;
-  border-radius: 0rem;
-}
-
-#right {
-  margin-right: 10px;
-  border-radius: 0rem;
-  border-right-style: none;
-}
-
-#workspaces button {
-  border-radius: 1rem;
-  padding-right: 0.4rem;
-  padding-left: 0.4rem;
-  color: @background;
-}
-
-#workspaces button.active {
-  border-radius: 1rem;
-  color: @background;
-}
-
-#workspaces button:hover {
-  border-radius: 1rem;
-  color: @background;
-}
-
-#pulseaudio {
-  margin-right: 10px;
-}
-
-#custom-music {
-  border-radius: 0rem;
-}
-
-#custom-power {
-  margin-right: 20px;
+  padding-left: 10px;
+  padding-right: 2px;
 }
 
 #custom-pacman {
-  margin-left: 5px;
-  margin-right: 10px;
+  margin-left: 20px;
+  margin-right: 14px;
+  background-color: @background;
+  color: @text;
+  border-radius: 1rem;
+}
+
+#workspaces {
+  border-radius: 1rem;
+  background-color: @background;
+}
+
+#workspaces button {
+  color: @text;
+  border-radius: 1rem;
+  padding: 0.4rem;
+}
+
+#workspaces button.active {
+  color: @text;
+  border-radius: 1rem;
+}
+
+#workspaces button:hover {
+  color: @text;
+  border-radius: 1rem;
+}
+
+#clock {
+  background-color: @background;
+  color: @text;
+  border-radius: 1rem;
+  margin-right: 30px;
+}
+
+
+#pulseaudio {
+  font-size: 20px;
+  background-color: @background;
+  color: @text;
+  border-radius: 1rem;
+  margin-right: 15px;
+}
+
+#custom-music {
+  background-color: @background;
+  color: @text;
+  border-radius: 1rem;
+}
+
+#custom-power {
+  font-size: 34px;
+   background-color: @background;
+    border-radius: 1rem;
+    margin-left: 20px;
+    color: @text;
 }
