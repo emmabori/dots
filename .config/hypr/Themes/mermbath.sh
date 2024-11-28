@@ -1,7 +1,7 @@
-cp /home/emmabori/.config/hypr/themes/mermbathland.conf /home/emmabori/.config/hypr/hyprland.conf
+cp ~/.config/hypr/themes/mermbathland.conf ~/.config/hypr/hyprland.conf
 
-cp /home/emmabori/.config/waybar/themes/mermbath/config /home/emmabori/.config/waybar/config
-cp /home/emmabori/.config/waybar/themes/mermbath/style.css /home/emmabori/.config/waybar/style.css
-cp /home/emmabori/.config/waybar/themes/mermbath/colors.css /home/emmabori/.config/waybar/colors.css
+cp ~/.config/waybar/themes/mermbath/config ~/.config/waybar/config
+cp ~/.config/waybar/themes/mermbath/style.css ~/.config/waybar/style.css
+cp ~/.config/waybar/themes/mermbath/colors.css ~/.config/waybar/colors.css
 
-/home/emmabori/.config/hypr/Themes/scripts/waybarrestart.sh
+~/.config/hypr/Themes/scripts/waybarrestart.sh
