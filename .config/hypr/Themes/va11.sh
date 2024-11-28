@@ -5,4 +5,6 @@ cp ~/.config/waybar/themes/va11/config ~/.config/waybar/config
 cp ~/.config/waybar/themes/va11/style.css ~/.config/waybar/style.css
 cp ~/.config/waybar/themes/va11/colors.css ~/.config/waybar/colors.css
 
+cp ~/.config/rofi/themes/va11.rasi ~/.config/rofi/current.rasi
+
 ~/.config/hypr/Themes/scripts/waybarrestart.sh

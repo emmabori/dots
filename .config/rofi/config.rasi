@@ -14,9 +14,4 @@ configuration{
     sidebar-mode: true;
 }
 
-//@theme "catppuccin-mocha"
-
-//@theme "/home/emmabori/.local/share/rofi/themes/catppuccin-latte.rasi"
-//@theme "/home/emmabori/.local/share/rofi/themes/rounded-nord-dark.rasi"
-//@theme "/home/emmabori/.local/share/rofi/themes/rounded-pink-dark.rasi"
-@theme "/home/emmabori/.local/share/rofi/themes/squared-material-red.rasi"
+@theme "current"

@@ -1,1 +1,1 @@
-$(zenity --file-selection --title="Select Theme" --filename="/~/.config/hypr/Themes/")
+$(zenity --file-selection --title="Select Theme" --filename="$HOME/.config/hypr/Themes/")

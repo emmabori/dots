@@ -4,4 +4,6 @@ cp ~/.config/waybar/themes/lain/config ~/.config/waybar/config
 cp ~/.config/waybar/themes/lain/style.css ~/.config/waybar/style.css
 cp ~/.config/waybar/themes/lain/colors.css ~/.config/waybar/colors.css
 
+cp ~/.config/rofi/themes/lain.rasi ~/.config/rofi/current.rasi
+
 ~/.config/hypr/Themes/scripts/waybarrestart.sh
