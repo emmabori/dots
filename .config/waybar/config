@@ -1,7 +1,10 @@
 {
     "layer": "top", // Waybar at top layer
     "position": "top", // Waybar position (top|bottom|left|right)
-    "margin": 0,
+    "margin-top": 6,
+    "margin-left": 12,
+    "margin-right": 12,
+    "margin-bottom": 0,
     //"width": 2560, // Waybar width
     "reload_style_on_change": true,
     // Choose the order of the modules
@@ -40,7 +43,7 @@
         "escape": true,
         "interval": 5,
         "tooltip": false,
-        "exec": "playerctl --player=spotify,%any metadata --format=' {{ title }} - {{ artist }} '",
+        "exec": "playerctl --player=spotify,%any metadata --format='{{ title }} - {{ artist }}'",
         "on-click": "playerctl play-pause",
         "max-length": 50
     },

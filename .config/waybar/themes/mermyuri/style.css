@@ -1,0 +1,77 @@
+@import "colors.css";
+
+* {
+  font-family: Palatino Linotype;
+  font-size: 18px;
+  font-weight: 600;
+  min-height: 0px;
+}
+
+#waybar {
+  background: @transparent;
+  color: @text;
+  border-style: none;
+  border-width: 2.5px;
+  border-color: @border;
+}
+
+#left, #right, #custom-music{
+  border-style: none;
+  border-width: 2.5px;
+  border-color: @border;
+  padding-left: 13px;
+  padding-right: 18px;
+  background: transparent;
+  margin-top: 1px;
+  margin-bottom: 0px;
+  color: @text;
+  text-shadow: 1px 2px black;
+}
+
+#left {
+  border-left-style: none;
+  margin-left: 10px;
+  margin-right: 20px;
+  border-radius: 0rem;
+}
+
+#right {
+  margin-right: 10px;
+  border-radius: 0rem;
+  border-right-style: none;
+}
+
+#workspaces button {
+  border-radius: 1rem;
+  padding-right: 0.4rem;
+  padding-left: 0.4rem;
+  color: @text;
+  text-shadow: 1px 2px black;
+}
+
+#workspaces button.active {
+  border-radius: 1rem;
+  color: @text;
+}
+
+#workspaces button:hover {
+  border-radius: 1rem;
+  color: @text;
+}
+
+#pulseaudio {
+  margin-right: 10px;
+}
+
+#custom-music {
+  border-radius: 0rem;
+}
+
+#custom-power {
+  margin-right: 20px;
+}
+
+#custom-pacman {
+  margin-left: 5px;
+  margin-right: 10px;
+}

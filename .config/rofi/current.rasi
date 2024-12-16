@@ -1,7 +1,7 @@
 * {
-    bg-col: rgba(237, 92, 159, 0.8);
-    primary: rgba(4, 175, 244, 0.8);
-    secondary: rgba(66, 106, 150, 0.8);
+    bg-col: rgba(255, 255, 255, 1);
+    primary: rgba(180, 20, 20, 1);
+    secondary: rgba(0, 0, 0, 1);
 
     width: 600;
     font: "JetBrainsMono Nerd Font 14";
