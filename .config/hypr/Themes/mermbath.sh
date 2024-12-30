@@ -6,4 +6,7 @@ cp ~/.config/waybar/themes/mermbath/colors.css ~/.config/waybar/colors.css
 
 cp ~/.config/rofi/themes/mermbath.rasi ~/.config/rofi/current.rasi
 
+gsettings set org.gnome.desktop.interface gtk-theme Sweet
+gsettings set org.gnome.desktop.interface icon-theme Flat-Remix-Violet-Dark
+
 ~/.config/hypr/Themes/scripts/waybarrestart.sh
