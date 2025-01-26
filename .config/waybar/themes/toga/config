@@ -43,8 +43,8 @@
         "escape": true,
         "interval": 5,
         "tooltip": false,
-        "exec": "playerctl --player=spotify,%any metadata --format='{{ title }} - {{ artist }}'",
-        "on-click": "playerctl play-pause",
+        "exec": "playerctl --player=fooyin,%any metadata --format='{{ title }} - {{ artist }}'",
+        "on-click": "playerctl --player=fooyin,%any  play-pause",
         "max-length": 50
     },
     "clock": {
