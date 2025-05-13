@@ -1,0 +1,97 @@
+@import "colors.css";
+
+* {
+    font-family: Palatino Linotype;
+    font-size: 18px;
+    font-weight: 600;
+    min-height: 0px;
+}
+
+#waybar {
+    background: rgba(149, 0, 194, 0);
+    color: @text;
+}
+
+#right {
+    border-style: solid;
+    border-width: 2.5px;
+    border-color: rgb(238, 150, 243);
+    padding-left: 13px;
+    padding-right: 18px;
+    background: white;
+    margin-top: 1px;
+    margin-bottom: 0px;
+}
+
+#left {
+    border-style: solid;
+    border-width: 2.5px;
+    border-color: rgb(160, 22, 56);
+    padding-left: 13px;
+    padding-right: 18px;
+    background: black;
+    margin-top: 1px;
+    margin-bottom: 0px;
+}
+
+#custom-music {
+    padding-left: 13px;
+    padding-right: 18px;
+    background: @background;
+    margin-top: 1px;
+    margin-bottom: 0px;
+    background-image: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(0, 0, 0, 1) 44%,
+        rgba(255, 255, 255, 1) 46%
+    );
+    color: rgb(160, 22, 56);
+    border-radius: 0rem;
+}
+
+#left {
+    border-left-style: solid;
+    margin-left: 10px;
+    margin-right: 20px;
+    color: rgb(160, 22, 56);
+    border-radius: 50rem 1rem 50rem 1rem;
+}
+
+#right {
+    background-color: @background;
+    margin-right: 10px;
+    color: rgb(238, 150, 243);
+    border-radius: 1rem 50rem 1rem 50rem;
+    border-right-style: solid;
+}
+
+#workspaces button {
+    color: @text;
+    border-radius: 1rem;
+    padding-right: 0.4rem;
+    padding-left: 0.4rem;
+}
+
+#workspaces button.active {
+    color: @text;
+    border-radius: 1rem;
+}
+
+#workspaces button:hover {
+    color: @text;
+    border-radius: 1rem;
+}
+
+#pulseaudio {
+    margin-right: 10px;
+}
+
+#custom-power {
+    margin-right: 20px;
+}
+
+#custom-pacman {
+    margin-left: 5px;
+    margin-right: 10px;
+}
